@@ -1,5 +1,8 @@
 name: Create Archive
-on: [push]
+on:
+  push:
+    tags:
+      - '*'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,7 +14,8 @@ jobs:
           type: 'zip'
           filename: 'brigandyne.zip'
           exclusions: '*.git* /*node_modules/* .editorconfig'
+      - name: Upload Archive
       - uses: actions/upload-artifact@v1
         with:
-          name: my-artifact
+          artifacts: 'brigandyne.zip'
           path: ${{ github.workspace }}/brigandyne.zip
