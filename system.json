@@ -18,6 +18,7 @@
       "path": "lang/fr.json"
     }
   ],
+  "initiative": "1d100",
   "socket": false,
   "gridDistance": 1,
   "gridUnits": "m",
