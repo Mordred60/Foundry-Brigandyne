@@ -13,5 +13,5 @@ jobs:
           exclusions: '*.git* /*node_modules/* .editorconfig'
       - uses: actions/upload-artifact@v1
         with:
-          name: brigandyne.zip
-          path: ${{ github.workspace }}/result.zip
+          name: my-artifact
+          path: ${{ github.workspace }}/brigandyne.zip
