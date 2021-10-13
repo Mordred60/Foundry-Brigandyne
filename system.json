@@ -1,0 +1,26 @@
+{
+  "name": "brigandyne",
+  "title": "Brigandyne - Foundry VTT",
+  "description": "Un système minimaliste pour jouer à Brigandyne sur Foundry VTT",
+  "minimumCoreVersion": "0.8.9",
+  "version": "0.0.1",
+  "author": "Mordred60",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [
+    "styles/brigandyne-core.scss"
+  ],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "socket": false,
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "url": "https://github.com/Mordred60/Foundry-Brigandyne",
+  "manifest": "https://github.com/Mordred60/Foundry-Brigandyne/system.json"
+}
